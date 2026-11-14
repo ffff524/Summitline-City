@@ -1,0 +1,22 @@
+SUMMITLINE CITY ROLEPLAY - FERTIGE TEAMZENTRALE
+===========================================
+
+WINDOWS ROOTSERVER - SCHNELLSTART
+
+1. Node.js ab Version 22.13 installieren: https://nodejs.org/
+2. ZIP entpacken.
+3. .env.example im entpackten Ordner kopieren und Kopie .env nennen.
+4. In .env OWNER_EMAIL auf deine E-Mail-Adresse setzen.
+5. start-windows.bat starten.
+6. Im selben Server-Browser http://localhost:3000 öffnen.
+7. Hauptadministrator mit deiner E-Mail, deinem neuen Passwort und
+   dem geheimen Startcode aus der Server-Konsole anlegen.
+8. Unter "Einladungen" Einmal-Codes für Mitarbeiter erstellen.
+
+DAMIT FREUNDE DIE WEBSITE ONLINE ERREICHEN:
+Auf dem Rootserver eine Domain mit HTTPS (z. B. Caddy-Reverse-Proxy)
+einrichten. Anschließend SECURE_COOKIES=true in .env setzen.
+Die Anleitung mit genauen Schritten steht in README.md.
+
+Alle Daten bleiben auf deinem Server in data/summitline.sqlite.
+Passwörter niemals in Chats oder fremde Websites eingeben.

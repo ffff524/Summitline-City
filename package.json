@@ -1,0 +1,10 @@
+{
+  "name": "summitline-city-roleplay-teamverwaltung",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sichere gemeinsame Team- und Aufgabenverwaltung für Summitline City Roleplay",
+  "type": "commonjs",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": { "start": "node server.js", "test": "node --test tests/*.test.js" },
+  "license": "UNLICENSED"
+}
